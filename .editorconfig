@@ -1,0 +1,21 @@
+root = true
+
+[*.cs]
+indent_style = space
+indent_size = 4
+end_of_line = crlf
+insert_final_newline = true
+charset = utf-8-bom
+csharp_new_line_before_open_brace = all
+dotnet_sort_system_directives_first = true
+csharp_style_var_when_type_is_apparent = true:suggestion
+csharp_style_namespace_declarations = file_scoped:suggestion
+dotnet_style_require_accessibility_modifiers = always:suggestion
+
+[*.{xaml,xml}]
+indent_style = space
+indent_size = 4
+
+[*.{json,sql}]
+indent_style = space
+indent_size = 2

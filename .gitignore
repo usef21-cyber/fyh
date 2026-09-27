@@ -1,0 +1,41 @@
+# Build outputs
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww]in32/
+ARM/
+ARM64/
+BenchmarkDotNet.Artifacts/
+
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Windows App SDK / MSIX
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+_pkginfo.txt
+
+# Test results
+TestResults/
+*.trx
+
+# Rider / VS Code
+.idea/
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Local runtime data (created at %LOCALAPPDATA%\TheLastTomorrow on the user's machine, never here)
+*.db
+*.db-shm
+*.db-wal
